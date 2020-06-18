@@ -2,12 +2,12 @@ import java.util.Arrays;
 
 public class TransitCalculator
 {
+    
     String[] fareOptions = {"Pay-per-ride (single ride): $2.75", "7-day Unlimited Rides: $33.00", "30-day Unlimited Rides: $127.00"}; // stores the fare options available to choose from
     double[] fares = {2.75, 33, 127}; // stores the amount to be paid to avail the particular fare option
 
     String[] elderlyFareOptions = {"Pay-per-ride (single ride): $1.35", "7-day Unlimited Rides: $16.50", "30-day Unlimited Rides: $63.50"}; // stores the fare options available to choose from for people above 65
     double[] elderlyFares = {1.35, 16.50, 63.50}; // stores the amount to be paid to avail the particular fare option by people above 65
-
 
 
     int days; // number of days the person takes rides
