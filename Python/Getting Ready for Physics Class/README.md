@@ -3,5 +3,5 @@ We just pretend to be a physics teacher preparing for the upcoming semester. We 
 The program includes functions for - 
 * Temperature
 * Force
-* Work
+* Work "\n"
 Many more such properties could be defined here..
