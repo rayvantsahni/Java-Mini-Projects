@@ -1,0 +1,25 @@
+LINKS FOR PROJECTS-
+
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
+https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice
+https://assets.datacamp.com/production/repositories/470/datasets/f1e7f8a98c18da5c60b625cb8af04c3217f4a5c3/female_literacy_fertility.csv
+https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation
+https://archive.ics.uci.edu/ml/datasets/Bar+Crawl%3A+Detecting+Heavy+Drinking
+https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29 ---> https://uni-siegen.sciebo.de/s/pYjSgfOVs6Ntahr/download
+http://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Dataset
+https://archive.ics.uci.edu/ml/datasets/Student+Academics+Performance
+https://archive.ics.uci.edu/ml/datasets/Low+Resolution+Spectrometer
+https://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope
+http://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music
+http://archive.ics.uci.edu/ml/datasets/YearPredictionMSD
+https://archive.ics.uci.edu/ml/datasets/FMA:+A+Dataset+For+Music+Analysis
+https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength
+https://archive.ics.uci.edu/ml/datasets/Forest+Fires
+https://archive.ics.uci.edu/ml/datasets/Solar+Flare
+https://archive.ics.uci.edu/ml/datasets/El+Nino
+https://archive.ics.uci.edu/ml/datasets/Cloud
+https://archive.ics.uci.edu/ml/datasets/SUSY
+https://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits
+https://archive.ics.uci.edu/ml/datasets/Letter+Recognition
+https://archive.ics.uci.edu/ml/datasets/Poker+Hand
+https://www.kaggle.com/theacademy/academy-awards
