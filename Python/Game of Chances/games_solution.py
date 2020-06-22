@@ -56,7 +56,6 @@ def pick_a_card(bet_amount):
       print("You won!!")
       return bet_amount
     else:
-      p1 < p2
       print("You lost :(")
       return -bet_amount
       
