@@ -23,6 +23,5 @@ public class Magic
 
     int stepSix = stepFive / 6;
     System.out.println(stepSix);
-
 	}
 }
