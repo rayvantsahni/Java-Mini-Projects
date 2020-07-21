@@ -3,7 +3,7 @@ import time
 
 def waiting_game():
     
-    goal_time = random.choice([2, 2.5, 3, 3.5, 4.5])
+    goal_time = random.choice([2, 2.5, 3, 3.5, 4, 4.5])
     print("Your goal is", goal_time, "seconds.\n")
     
     input("----Press Enter key to begin----\n")
