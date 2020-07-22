@@ -13,7 +13,7 @@ def waiting_game():
     elapsed_time = time.perf_counter() - start
     print("\nTime Elapsed:", round(elapsed_time, 3))
     
-    if elapsed_time == goal_time:
+    if round(elapsed_time, 3) == round(goal_time, 3):
         print("Wow! Superb Timing.")
     elif elapsed_time < goal_time:
         print("(Ahh!", round(goal_time - elapsed_time, 3), "seconds too fast.)")
