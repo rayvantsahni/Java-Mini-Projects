@@ -84,3 +84,8 @@ def build_graph():
 
   graph.print_map()
   return graph
+
+
+
+excavation_site = build_graph()
+excavation_site.explore()
