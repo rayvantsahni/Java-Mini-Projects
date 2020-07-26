@@ -1,4 +1,15 @@
-from vertex import Vertex
+class Vertex:
+  def __init__(self, value):
+    self.value = value
+    self.edges = {}
+
+  def add_edge(self, adjacent_value, weight = 0):
+    self.edges[adjacent_value] = weight
+
+  def get_edges(self):
+    return self.edges.keys()
+
+  
 
 class Graph:
   def __init__(self):
@@ -13,8 +24,7 @@ class Graph:
 
   def explore(self):
     print("Exploring the graph....\n")
-    #FILL IN EXPLORE METHOD BELOW
-  def explore(self):
+    
     current_room = 'entrance'
     path_total = 0
     print("\nStarting off at the {0}\n".format(current_room))
@@ -52,21 +62,18 @@ class Graph:
 def build_graph():
   graph = Graph()
   
-  # MAKE ROOMS INTO VERTICES BELOW...
   entrance = Vertex("entrance")
   ante_chamber = Vertex("ante-chamber")
   kings_room = Vertex("king's room")
   grand_gallery = Vertex("grand gallery")
   treasure_room = Vertex("treasure room")
 
-  # ADD ROOMS TO GRAPH BELOW...
   graph.add_vertex(entrance)
   graph.add_vertex(ante_chamber)
   graph.add_vertex(kings_room)
   graph.add_vertex(grand_gallery)
   graph.add_vertex(treasure_room)
 
-  # ADD EDGES BETWEEN ROOMS BELOW...
   graph.add_edge(entrance, ante_chamber, 7)
   graph.add_edge(entrance, kings_room, 3)
   graph.add_edge(kings_room, ante_chamber, 1)
@@ -75,6 +82,5 @@ def build_graph():
   graph.add_edge(treasure_room, ante_chamber, 6)
   graph.add_edge(treasure_room, grand_gallery, 4)
 
-  # DON'T CHANGE THIS CODE
   graph.print_map()
   return graph
